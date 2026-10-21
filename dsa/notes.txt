@@ -1,0 +1,22 @@
+lets see for n = 3
+result = 2
+
+range ( 1 , 4) -> 1,2,3
+result *= i
+
+for i = 1
+result = result * i
+1 * 1 -> result = 1
+
+for i = 2
+result = result * i
+1 * 2 -> result = 2
+
+for i = 3
+result = result * i
+2 * 3 = 6
+result = 6 
+
+for i = 4 (out of range)
+
+return result (which is 6) 
