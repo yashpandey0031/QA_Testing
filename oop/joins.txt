@@ -1,0 +1,29 @@
+Inner join
+returns only rows that match in both tables
+
+select e.name , d.dept_name
+from employee e
+inner join department d
+on e.dept_id = d.dept_id;
+
+
+
+#left join
+return all rows from left table and matching rows from the right table, if there is no match , the right side columsns are NULL
+
+select e.name , d.dept_name
+from employee e
+left join department d
+on e.dept_id = d.dept_id
+
+@right join 
+return all the rows from the right table and matching rows from the left table
+
+select e.name , d.dept_name
+from employee e
+right join department d
+on e.dept_id = d.dept_id 
+
+#full outer join 
+returns all matching and non matching rows from both tables
+
